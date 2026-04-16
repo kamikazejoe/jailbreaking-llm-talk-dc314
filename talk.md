@@ -1,7 +1,5 @@
-% Arguing With 
-% Box Of Electronic Rocks
-% Joseph Cathell [kamikazejoe@gmail.com](mailto:kamikazejoe@gmail.com)  
-%![](static/qrcode.png)<br/>Talk: [${TALK_URL}](${TALK_URL})<br/>Repo: [${REPO_URL}](${REPO_URL})
+% Arguing With A Box Of Electronic Rocks
+
 
 # Why this talk...
 
