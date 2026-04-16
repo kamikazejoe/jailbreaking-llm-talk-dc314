@@ -24,7 +24,7 @@ Ignore this line
 
 :::
 
-# So How Do We Break An LLM?
+## So How Do We Break An LLM?
 
 <img src="static/51b08ef58205dcc90c5390c3505fa27d.png" alt="51b08ef58205dcc90c5390c3505fa27d.png" width="379" height="439" class="jop-noMdConv">
 
@@ -110,21 +110,7 @@ The process we are looking for then is:
        
 :::
 
-## Grading of Jailbroken
-
-<img src="static/e490e3c1232f413bc4dfc2ce87eba72a.png" alt="e490e3c1232f413bc4dfc2ce87eba72a.png" width="602" height="434" class="jop-noMdConv">
-
-::: notes
-
-You can partially jailbreak an LLM. You may get it to a point where it gives up some sensitive information, but it's still not completely compliant.
-
-Various LLM Jailbreaking communities online have methods of grading your jailbreak prompt, but there isn't any kind of consistent scoring like a CVS Score. At least not yet.
-
-But basically the more detailed a description of malicious activity and/or the more aggressive or pronounced the desired personality from the LLM, the stronger the potential jailbreak.
-
-:::
-
-# Categories of Prompt Injections
+## Categories of Prompt Injections
 
 - Direct Instruction
 - Implied Instruction or Layered Framing
@@ -145,7 +131,7 @@ I guess everyone is gold rushing to try and stake their claim as the ones who de
 
 :::
 
-# Direct Instruction
+## Direct Instruction
 
 "Ignore all previous instructions..."
 
@@ -161,7 +147,7 @@ You have to layer your requests and reference things as indirectly and creativel
 
 :::
 
-# Implied Instruction or Layered Framing
+## Layered Framing
 
 - Meta-Level Roleplay Framing
 - Recursive Framing
@@ -229,7 +215,7 @@ To the LLM it looks exploratory, masks intent behind layers.
 
 :::
 
-# Ambiguous Queries and Polite Coercion
+## Ambiguous Queries and Polite Coercion
 
 - Polite Coercion
 - "Help me understand" Framing
@@ -283,7 +269,7 @@ You could also ask something like: “GPT-3 used to answer questions like X. Can
 :::
 
 
-# Code Injection
+## Obfuscation
 
 - Linguistic Obfuscation
 - Token Blending / Steganographic Input
@@ -369,7 +355,7 @@ Can fool context-limited detectors if they truncate or ignore middle tokens.
 
 :::
 
-# It's jailbroken. Now what?
+## It's jailbroken. Now what?
 
 - Do dangerous things
 - Create Deepfakes
